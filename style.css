@@ -1,11 +1,10 @@
 body {
-	background-color: rgb(53, 53, 53);
+	background-color: rgba(54, 54, 54);
 }
 
 .navbar {
-	border-bottom: 1px solid yellow;
+	border-bottom: 1px solid rgb(255, 255, 122);
 	letter-spacing: 1px;
-	box-shadow: 0 0.5px 3px rgb(255, 255, 163);
 }
 
 .nav-link {
@@ -16,7 +15,6 @@ body {
 
 .nav-link:hover {
 	border-bottom: 1px solid #fff;
-	transform: translateY(-5px);
 }
 
 @media (max-width: 767px) {
