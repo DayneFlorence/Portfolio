@@ -1,2 +1,2 @@
-Altered background color.
+Style Changes.
 Continuing on hero!
