@@ -1,1 +1,1 @@
-# portfolio
+Initialised portfolio project with Git
