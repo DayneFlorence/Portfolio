@@ -1,10 +1,19 @@
 body {
-	background-color: rgba(54, 54, 54);
+
+	background-color: rgb(54, 54, 54);
 }
 
 .navbar {
-	border-bottom: 1px solid rgb(255, 255, 122);
-	letter-spacing: 1px;
+	border-bottom: 1px solid yellow;
+	letter-spacing: 2px;
+
+	background-color: rgb(54, 54, 54);
+}
+
+.navbar {
+	border-bottom: 1px solid yellow;
+	letter-spacing: 2px;
+
 }
 
 .nav-link {
@@ -20,7 +29,7 @@ body {
 @media (max-width: 767px) {
 	.nav-link {
 		min-width: 70px;
-		max-width: 100px;
+		max-width: 150px;
 		padding-left: 10px;
 		border-radius: 0;
 	}
