@@ -1,2 +1,2 @@
 Altered background color.
-Continuing on hero.
+Continuing on hero!
