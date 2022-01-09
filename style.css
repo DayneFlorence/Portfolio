@@ -1,12 +1,5 @@
 body {
-	background-color: rgb(54, 54, 54);
-}
-
-.navbar {
-	border-bottom: 1px solid yellow;
-	letter-spacing: 2px;
-
-	background-color: rgb(54, 54, 54);
+	background-color: rgb(44, 44, 44);
 }
 
 .navbar {
