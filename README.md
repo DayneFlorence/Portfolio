@@ -1,1 +1,2 @@
-completed navbar for develop branch!
+Altered background color.
+Continuing on hero!
