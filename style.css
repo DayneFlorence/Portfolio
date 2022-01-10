@@ -3,6 +3,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -11,6 +15,14 @@ h5,
 h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 0;
+}
+
+@media (min-width: 1200px) {
+	#hero,
+	#portfolio {
+		border-right: 1px solid white;
+		border-left: 1px solid white;
+	}
 }
 
 /*----NAVIGATION----*/
@@ -113,4 +125,39 @@ h6 {
 	.about-text {
 		width: 75%;
 	}
+}
+
+/*----PORTFOLIO----*/
+
+#portfolio .site {
+	border-radius: 20px;
+}
+.card-img {
+	padding-top: calc(2 / 3 * 100%);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+
+.portfolio-head {
+	text-align: center;
+}
+
+#portfolio h2 {
+	display: inline-block;
+	border-bottom: 1px solid yellow;
+}
+
+.card-text h3 {
+	border-bottom: 1px solid RGBA(0, 0, 0, 0);
+}
+
+.card-text h3:hover {
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+}
+
+.divider {
+	background-color: yellow;
+	border: none;
 }
