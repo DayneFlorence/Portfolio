@@ -38,7 +38,7 @@ body {
 /*----HERO-----*/
 
 #hero .text {
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 
 	transition: transform 500ms ease;
 }
