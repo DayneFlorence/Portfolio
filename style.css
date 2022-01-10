@@ -53,7 +53,7 @@ body {
 	transition: transform 500ms ease;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
 	#hero .text {
 		font-size: 4rem;
 	}
@@ -62,8 +62,8 @@ body {
 @media (max-width: 767px) {
 	#hero .text {
 		position: absolute;
-		top: 20px;
-		right: 30px;
+		top: 30px;
+		right: 40px;
 	}
 }
 
