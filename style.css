@@ -1,6 +1,31 @@
 body {
 	background-color: rgb(44, 44, 44);
+	font-family: 'Montserrat', sans-serif;
 }
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 0;
+}
+
+@media (min-width: 1200px) {
+	#hero,
+	#portfolio {
+		border-right: 1px solid white;
+		border-left: 1px solid white;
+	}
+}
+
+/*----NAVIGATION----*/
 
 .navbar {
 	border-bottom: 1px solid yellow;
@@ -31,4 +56,126 @@ body {
 		border-left: 1px solid #fff;
 		border-right: 1px solid #fff;
 	}
+}
+
+/*----HERO-----*/
+
+#hero {
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+#hero .row {
+	margin-bottom: 60px;
+}
+
+#hero .text {
+	letter-spacing: 1px;
+	font-size: 2.5rem;
+	transition: transform 500ms ease;
+	font-weight: 600;
+}
+
+#hero .name {
+	border-bottom: 1px solid yellow;
+}
+
+#hero img {
+	border-radius: 40px;
+	box-shadow: 0 0 13px rgb(0, 0, 0);
+}
+
+@media (min-width: 576px) {
+	#hero .text {
+		font-size: 4rem;
+	}
+}
+
+@media (max-width: 767px) {
+	#hero .text {
+		position: absolute;
+		top: 30px;
+		right: 40px;
+	}
+}
+
+@media (min-width: 1000px) {
+	#hero .text:hover {
+		transform: translateY(-10px);
+	}
+}
+
+/*-----ABOUT-----*/
+
+#about {
+	margin-top: 50px;
+}
+
+.about-text {
+	box-shadow: 0 0 15px rgb(0, 0, 0);
+	color: rgb(102, 102, 102);
+	line-height: 1.7rem;
+	border-left: 3px solid yellow;
+	border-right: 3px solid yellow;
+}
+
+.about-text .head {
+	font-weight: 400;
+	color: rgb(90, 90, 90);
+	transition: transform 500ms ease;
+}
+@media (min-width: 1000px) {
+	.about-text .head:hover {
+		transform: translateY(-5px);
+	}
+}
+
+@media (min-width: 768px) {
+	.about-text {
+		width: 75%;
+	}
+}
+
+/*----PORTFOLIO----*/
+
+#portfolio .site {
+	border-radius: 20px;
+}
+.card-img {
+	padding-top: calc(2 / 3 * 100%);
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+}
+
+.portfolio-head {
+	text-align: center;
+}
+
+#portfolio h1 {
+	display: inline-block;
+	border-bottom: 1px solid yellow;
+}
+.card-text {
+	color: white;
+}
+.card-text h3 {
+	border-bottom: 1px solid RGBA(0, 0, 0, 0);
+}
+
+.card-text h3:hover {
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+	color: white;
+}
+
+.divider {
+	background-color: yellow;
+	border: none;
+}
+
+/*----Contact----*/
+
+#contact {
+	text-align: center;
 }
