@@ -1,5 +1,16 @@
 body {
 	background-color: rgb(44, 44, 44);
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 0;
 }
 
 /*----NAVIGATION----*/
@@ -33,21 +44,23 @@ body {
 		border-left: 1px solid #fff;
 		border-right: 1px solid #fff;
 	}
-
-	.navbar {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
 }
 
 /*----HERO-----*/
 
+#hero {
+	padding-bottom: 30px;
+}
+
+#hero .row {
+	margin-bottom: 60px;
+}
+
 #hero .text {
-	letter-spacing: 2.5px;
+	letter-spacing: 1px;
 	font-size: 2.5rem;
 	transition: transform 500ms ease;
+	font-weight: 600;
 }
 
 #hero .name {
@@ -57,7 +70,6 @@ body {
 #hero img {
 	border-radius: 40px;
 	box-shadow: 0 0 13px rgb(0, 0, 0);
-	transition: transform 500ms ease;
 }
 
 @media (min-width: 576px) {
@@ -74,17 +86,30 @@ body {
 	}
 }
 
-@media (min-width: 768px) {
-	#hero {
-		margin-top: 110px;
+@media (min-width: 1000px) {
+	#hero .text:hover {
+		transform: translateY(-10px);
 	}
 }
 
-@media (min-width: 1200px) {
-	#hero img:hover {
-		transform: translateY(-10px);
-	}
-	#hero .text:hover {
-		transform: translateY(-10px);
+/*-----ABOUT-----*/
+
+#about {
+	margin-top: 70px;
+}
+
+.about-text {
+	box-shadow: 0 0 13px rgb(0, 0, 0);
+	line-height: 1.7rem;
+	border-right: 3px solid yellow;
+}
+
+.about-text .head {
+	font-weight: 400;
+}
+
+@media (min-width: 992px) {
+	.about-text {
+		width: 75%;
 	}
 }
