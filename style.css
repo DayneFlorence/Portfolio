@@ -33,6 +33,13 @@ body {
 		border-left: 1px solid #fff;
 		border-right: 1px solid #fff;
 	}
+
+	.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 }
 
 /*----HERO-----*/
@@ -48,8 +55,8 @@ body {
 }
 
 #hero img {
-	border-radius: 30px;
-	box-shadow: 0 0 10px rgb(0, 0, 0);
+	border-radius: 40px;
+	box-shadow: 0 0 13px rgb(0, 0, 0);
 	transition: transform 500ms ease;
 }
 
@@ -64,6 +71,12 @@ body {
 		position: absolute;
 		top: 30px;
 		right: 40px;
+	}
+}
+
+@media (min-width: 768px) {
+	#hero {
+		margin-top: 110px;
 	}
 }
 
