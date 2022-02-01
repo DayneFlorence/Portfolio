@@ -76,8 +76,9 @@ h6 {
 	font-weight: 600;
 }
 
-#hero .name {
-	border-bottom: 1px solid yellow;
+#hero .hero-name h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 }
 
 #hero img {
@@ -91,11 +92,22 @@ h6 {
 	}
 }
 
+@media (min-width: 767px) {
+	#hero .text {
+		border-right: 1px solid yellow;
+	}
+}
+
 @media (max-width: 767px) {
 	#hero .text {
 		position: absolute;
 		top: 30px;
-		right: 40px;
+		right: 30px;
+		border-left: 1px solid yellow;
+		border-bottom: 1px solid yellow;
+	}
+	.hero-name h1 {
+		padding: 0 0 10px 20px;
 	}
 }
 
