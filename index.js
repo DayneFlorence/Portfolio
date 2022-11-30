@@ -11,6 +11,8 @@ titleArt.style.border = 'yellow solid 1px';
     titleArt.style.boxShadow = 'black 0 0 10px 5px';
     titleArt.style.borderRadius = '20px';
 
+    
+
 toggleBtn.addEventListener('change', e => { 
   mainContent.style.display = e.target.checked ? 'none' : 'block';
   

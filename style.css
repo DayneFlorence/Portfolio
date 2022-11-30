@@ -7,6 +7,12 @@ a {
 	text-decoration: none;
 }
 
+/* @media(min-width:767px){
+	.container-xl{
+		max-width:100%;
+	}
+} */
+
 h1,
 h2,
 h3,
@@ -16,6 +22,26 @@ h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 0;
 }
+
+#logo{
+	width:90px;
+	border-radius: 100px;
+	transition: transform 800ms ease-in-out;
+}
+
+@media(min-width:1200px){
+	#logo:hover{
+		transform: rotate(200deg);
+	}
+}
+
+@media(max-width:565px){
+	#logo{
+		width: 60px;
+	}
+}
+
+
 
 @media (min-width: 1200px) {
 	#hero,
@@ -44,6 +70,7 @@ h6 {
 
 @media (max-width: 767px) {
 	.nav-link {
+		
 		min-width: 70px;
 		max-width: 150px;
 		padding-left: 10px;
@@ -171,9 +198,7 @@ h6 {
 
 }
 
-.underline{
-	border-bottom: 1px solid yellow;
-}
+
 .card-text {
 	color: white;
 }
@@ -278,16 +303,19 @@ h6 {
   }
 
   .toggle-title{
-	padding:10px;
 	margin: 0 20px;
+	
 	
   }
 
   @media(max-width: 565px){
 	.toggle-title {
-		font-size: 20px;
+		font-size: 25px;
 	}
+	
   }
 
 
- 
+ .exp h2{
+	letter-spacing: 3px;
+ }
