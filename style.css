@@ -319,3 +319,11 @@ h6 {
  .exp h2{
 	letter-spacing: 3px;
  }
+
+ .exp p{
+	letter-spacing: 2px;
+ }
+
+ .exp hr{
+	color:yellow;
+ }
