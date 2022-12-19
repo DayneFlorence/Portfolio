@@ -14,10 +14,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+  <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-xxl py-2 px-2 px-xxl-0 position-relative ">
@@ -35,10 +38,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto my-2 ">
               <li class="nav-item px-2 py-2 px-md-4 py-md-0">
-                <a class="nav-link text-white py-2 px-2 px-md-3" aria-current="page" href="#about">About Me</a>
+                <a class="nav-link text-white py-2 px-2 px-md-3" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item nav-item-2 px-2 px-md-4 py-2 py-md-0">
-                <a class="nav-link text-white py-2 px-2 px-md-3" href="#portfolio">My Work</a>
+                <a class="nav-link text-white py-2 px-2 px-md-3" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item px-2 px-md-4 py-2 py-md-0">
                 <a class="nav-link text-white py-2 px-2 px-md-3" href="#contact">Contact</a>
@@ -50,7 +53,7 @@
       </nav>
 
       <div class="container-xl" id="hero">
-          <div class="row  d-flex align-items-center flex-md-coloumn-reverse">
+          <div class="row welcome d-flex align-items-center flex-md-coloumn-reverse">
               <div class="col-12 col-md-6 gx-5 p-2 px-lg-4 position-relative">
                   <div class="d-flex justify-content-end   mx-1 hero-name">
                       <h1 class="text text-1 text-end text-ms-end pe-md-4 text-white">Dayne<br><span class="name">Florence</span></h1>
@@ -58,20 +61,47 @@
               </div>
               <div class="col-12 col-md-6  p-3 ">
                 <div class="d-flex justify-content-start">
-                    <img class="w-75" src="images/audience.jpeg" alt="">
+                    <img class="w-75 portrait" src="images/audience.jpeg" alt="">
                   </div>
             </div>
 
           </div>
 
           <div class="about-wrapper d-flex justify-content-center" id="about">
-            <div class="about-text bg-white  my-1 p-3 rounded" >
-                <h2 class="px-3 py-2 head ">About me</h2>
-                <p class="px-3  py-2">
-                    I am an Australian born performing artist based in Basel, Switzerland. 
-                    Having always an eye out for beauty in simplicity and thoughtfulness, I have been 
-                    drawn to the world  of Web Design and  Development, and havne’t looked back since. 
+            <div class="about-text bg-white  my-2 p-4 rounded" >
+                <h2 class="px-2 px-md-4 py-2 head ">About</h2>
+                <p class="px-2 px-md-4 py-3">
+                  
+
+                  <span>Dayne Florence is an Australian performing artist and web developer from Sydney. </span>
+                
+                  <br><br>
+                  
+                  After receiving his education at the Mcdonald College of Performing Arts and Ballettschule Theater Basel, Dayne began his career with the Ballet du Rhin in Mulhouse, France, as an apprentice. He then became a member of the NRW Junior Ballet Dortmund in Germany, a soloist with Nürnberg Ballet in Germany, and is currently residing in Basel, Switzerland, as a member of Ballet Basel. During his career, Dayne has performed works by Hofesh Shechter, Marco Goecke, Alexander Ekman,  Richard Wherlock, Johan Inger, Rachelle Scott, Jacopo Godani, Craig Davidson, Goyo Montero, Xin Peng Wang, amongst others. <br><br>
+                  
+                  Besides his work as a performer, Dayne is a self-taught web developer. With a passion for using his creativity to build ideas from scratch, he enjoys working with people to help create personal and professional websites and web applications. Dayne can work with languages, frameworks, and tools such as:
+                  
                   </p>
+
+                  <div class="container d-flex pb-4">
+                    <div class="row my-2 justify-content-evenly align-items-center">
+                      <img class="col-md-2 col-4 lang-icon " src="images/html.png" alt="Html">
+                      <img class="col-md-2 col-4 lang-icon" src="images/css3.png" alt="CSS">
+                      <img class="col-md-2 col-4 lang-icon" src="images/bootstrap.png" alt="Bootstrap">
+                      <img class="col-md-2 col-4 lang-icon" src="images/javascript.png" alt="Javascript">
+
+                      <div class="row my-2 justify-content-evenly align-items-center">
+                        <img class="col-md-2 col-4 lang-icon" src="images/react.png" alt="React.JS">
+                      <img class="col-md-2 col-4 lang-icon" src="images/jquery.png" alt="Jquery">
+                      
+                      <img class="col-md-2 col-4 lang-icon" src="images/git.png" alt="Git">
+                      <img class="col-md-2 col-4 lang-icon" src="images/github.png" alt="Github">
+                      </div>
+                      
+                    </div>
+                    
+
+                  </div>
     
             </div>
           </div>
@@ -87,7 +117,7 @@
 
         <div class="portfolio-head py-4">
 
-          <div class="container-xl  w-md-50">
+          <div class="container-xl py-2 w-md-50">
             
               <div class="row align-items-center">
                 <h1 id="toggle-title-art" class="p-2 text-white col text-end pr-4 toggle-title">Artist</h1>
@@ -121,7 +151,8 @@
                   <hr class="m-0 mb-1">
                   <p>Germany</p>
                  </div>
-                 <div class="text-center mb-4">
+                 <div class="text-center mb-4
+                 ">
                   <h2>Ballet du Rhin</h2>
                   <hr class="m-0 mb-1">
                   <p>France</p>
@@ -294,7 +325,7 @@
       <footer class="container-xl py-4" id="contact">
         <div class="p-2">
             <h4 class="text-white">
-                Contact me
+                Contact
             </h4>
         </div>
         <div class="icons py-3">
@@ -314,7 +345,9 @@
 
 
 
-
+      <button type="button" class="btn  btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
 
 
 
