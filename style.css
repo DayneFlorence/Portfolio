@@ -296,8 +296,8 @@ h6 {
 	left: 4px;
 	bottom: 4px;
 	background-color: black;
-	-webkit-transition: .4s;
-	transition: .4s;
+	-webkit-transition: .1s;
+	transition: .1s;
   }
   
   input:checked+.slider {
@@ -426,6 +426,7 @@ h6 {
   .lang-icon{
 	border-radius: 0px;
 	margin:20px;
+	
   }
 
   
