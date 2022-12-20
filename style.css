@@ -21,7 +21,8 @@ body {
     #background-video { display: none; }
     body {
       background: url("images/poster.png") ;
-      background-size: contain;
+      background-size:cover;
+	  background-attachment: fixed;
     }
 } 
 
