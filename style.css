@@ -283,9 +283,9 @@ h6 {
 	right: 0;
 	bottom: 0;
 	background-image: linear-gradient(to right,yellow,rgb(55, 55, 55),  black);
-	transition: background-image 2s;
-	-webkit-transition: .4s;
-	transition: .4s;
+	transition: background-image 1s;
+	-webkit-transition: .1s;
+	transition: .1s;
   }
   
   .slider:before {
