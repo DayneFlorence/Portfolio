@@ -16,14 +16,14 @@ body {
 	z-index: -1;
   }
 
-/* Changes background to image on mobile */
-  /* @media (max-width: 565px) {
+
+  @media (max-width: 565px) {
     #background-video { display: none; }
     body {
       background: url("images/poster.png") ;
       background-size: contain;
     }
-} */
+} 
 
 a {
 	text-decoration: none;
