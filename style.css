@@ -20,7 +20,7 @@ body {
   @media (max-width: 565px) {
     #background-video { display: none; }
     body {
-      background: url("images/poster.png") ;
+      background: url("images/poster.webp") ;
       background-size:contain;
 	  background-attachment: fixed;
     }
