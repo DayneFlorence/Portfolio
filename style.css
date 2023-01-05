@@ -257,13 +257,14 @@ h6 {
 	color: white;
 }
 .card-text h3 {
-	border-bottom: 1px solid RGBA(0, 0, 0, 0);
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
 	font-size: 1.3rem;
 	letter-spacing: 1.5px;
+	display: inline-block;
 }
 
 .card-text h3:hover {
-	display: inline-block;
+	
 	border-bottom: 1px solid #fff;
 	color: white;
 }
