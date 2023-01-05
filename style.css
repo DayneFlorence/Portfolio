@@ -178,6 +178,11 @@ h6 {
 @media (min-width: 1000px) {
 	#hero .text:hover {
 		transform: translateY(-10px);
+
+	}
+
+	.email:hover{
+		transform: scale(1.1);
 	}
 }
 
@@ -193,7 +198,7 @@ h6 {
 
 .about-text {
 	
-	background-color: rgba(255, 255, 255,0.4);
+	background-color: rgba(255, 255, 255,0.2);
 	box-shadow: 0 0 15px rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
 	line-height: 2rem;
@@ -355,14 +360,14 @@ h6 {
   }
 
   .toggle-title{
-	margin: 0 20px;
+	margin: 0 15px;
 	
 	
   }
 
   @media(max-width: 565px){
 	.toggle-title {
-		font-size: 25px;
+		font-size: 22px;
 	}
 	
   }
@@ -455,4 +460,8 @@ h6 {
 
 .email-info h2{
 	padding:10px 0;
+}
+
+.email{
+	transition: transform 500ms ease ;
 }
